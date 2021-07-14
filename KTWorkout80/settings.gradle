@@ -1,0 +1,2 @@
+rootProject.name = "KTWorkout80"
+include ':app'

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.terrgym80">
+    <!-- 톰캣 서버나 외부 API 이용 시 반드시 permmition 등록 필요 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TerrGym80"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".ChatActivity"></activity>
+        <activity android:name=".MapActivity" />
+        <activity android:name=".CoinActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".ResListActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

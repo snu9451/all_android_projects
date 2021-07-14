@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_login"
+            android:title="로그인"
+            android:checked="true"
+            />
+        <item
+            android:id="@+id/nav_join"
+            android:title="회원가입"
+            />
+        <item
+            android:id="@+id/nav_myPage"
+            android:title="@string/nav_mypage"
+            />
+        <item
+            android:id="@+id/nav_item"
+            android:title="@string/nav_item"
+            />
+        <item
+            android:id="@+id/nav_errand"
+            android:title="@string/nav_errand"
+            />
+    </group>
+        <item android:title="Information">
+            <menu>
+                <item android:id="@+id/nav_coin"
+                    android:title="@string/nav_coin" />
+                <item android:id="@+id/nav_chat"
+                    android:title="@string/nav_chat" />
+                <item android:id="@+id/nav_map"
+                    android:title="@string/nav_map" />
+            </menu>
+        </item>
+</menu>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<!--
+    orderInCategory: 앱바가 여러 액션을 포함할 경우, 액션이 나타나는 순번이다.
+        1이면 '첫번째에 보여주세요'.
+-->
+    <item android:title="주문하기"
+        android:icon="@drawable/ic_add_white_24dp"
+        android:id="@+id/create_order"
+        app:showAsAction="ifRoom"
+        android:orderInCategory="1"/>
+    <item android:title="Share"
+        android:icon="@drawable/ic_done_white_24dp"
+        android:id="@+id/action_share"
+        app:showAsAction="ifRoom"
+        app:actionProviderClass="androidx.appcompat.widget.ShareActionProvider"
+        android:orderInCategory="2"/>
+</menu>

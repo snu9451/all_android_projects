@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "290065888493",
+    "project_id": "ktfcmkey801",
+    "storage_bucket": "ktfcmkey801.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:290065888493:android:6ca627a52388ffebbd88e4",
+        "android_client_info": {
+          "package_name": "com.example.ktfcmkey801"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "290065888493-j3qao8dd92q65nm70c4rbsppo0be22ug.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrB9NadQy0DNzNvtHz9bb8NNLN8N0aKoo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "290065888493-j3qao8dd92q65nm70c4rbsppo0be22ug.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -13,11 +13,13 @@ import com.example.chunggo801.model.ChatList
 
 class ChatListFragment : Fragment(R.layout.fragment_chatlist) {
     companion object {
+        /*  =================================== [[ 테스트용 :: ArrayList ]] =======================================
         val chatListData = ArrayList<ChatList>()
 //        val nicknameList: ArrayList<String> = ArrayList()
 //            arrayOf("김은영", "이순신도라에몽", "강감찬보노보노", "홍길동둘리")
 //        val contentList: ArrayList<String> = ArrayList()
 //            arrayOf("첫번째 테스트 내용", "HI!! HELLO!!", "897654565564", "last content")
+        */
     }
     private var chatListBinding: FragmentChatlistBinding? = null
     private lateinit var chatListAdapter: ChatListAdapter
@@ -34,19 +36,24 @@ class ChatListFragment : Fragment(R.layout.fragment_chatlist) {
         savedInstanceState: Bundle?
     ): View? {
 
+        /*  =================================== [[ 테스트용 :: ArrayList ]] =======================================
         // 데이터 담아주기
         val chatOne = ChatList(null, "김은영", "첫번째 테스트 내용")
         val chatTwo = ChatList(null, "이순신도라에몽", "HI!!! HELLO!!!")
+        val chatThree = ChatList(null, "강감찬보노보노", "897654565564")
+        val chatFour = ChatList(null, "홍길동둘리", "last content")
         chatListData.add(chatOne)
         chatListData.add(chatTwo)
-
+        chatListData.add(chatThree)
+        chatListData.add(chatFour)
+        */
 
         chatListBinding = FragmentChatlistBinding.inflate(layoutInflater)
         val view = binding.root
         chatListAdapter = ChatListAdapter()
         binding.rvChatList.layoutManager = LinearLayoutManager(context)
         binding.rvChatList.adapter = chatListAdapter
-        chatListAdapter.submitList(chatListData)
+//        chatListAdapter.submitList(chatListData)
         return view
     }
 

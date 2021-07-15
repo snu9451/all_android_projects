@@ -54,8 +54,8 @@ class ChatListFragment : Fragment(R.layout.fragment_chatlist) {
                 Log.i(TAG, "스냅샷0 ===> ${snapshot.children}")
                 Log.i(TAG, "스냅샷1 ===> ${snapshot.children.toList()}")
                 Log.i(TAG, "스냅샷2 ===> ${snapshot.child("chat-"+1+"/content").value}")
-                Log.i(TAG, "스냅샷2 ===> ${snapshot.getValue()}")
-                Log.i(TAG, "스냅샷2 ===> ${snapshot.value}")
+                Log.i(TAG, "스냅샷3 ===> ${snapshot.getValue()}")
+                Log.i(TAG, "스냅샷4 ===> ${snapshot.value}")
             }
 
             override fun onChildChanged(snapshot: DataSnapshot, previousChildName: String?) {
